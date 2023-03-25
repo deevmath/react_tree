@@ -1,6 +1,18 @@
 export function Cards() {
   return (
-    <div className="flex flex-col gap-3 mt-3">
+    <div className="flex flex-col gap-3 mt-3 items-center justify-center pb-4">
+      <div className=" flex flex-col items-center justify-center">
+        <p className=" text-3xl mb-2">Matheus Silva</p>
+        <span className=" mb-3">@byimatheus</span>
+        <p className=" text-center mb-4">
+          Apaixonado pela Programação
+          <br />
+          Imagine uma nova historia pra sua vida e acredite nela
+          <br />A vida é melhor para aqueles que fazem o possível para ter o
+          melhor
+        </p>
+        <p>↓ Vem comigo ↓</p>
+      </div>
       <a
         href="http://youtube.com"
         target={'_blank'}
